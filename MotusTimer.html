@@ -1,0 +1,58 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<body>
+
+	<div id=main>
+
+		<div id=Headline><h1>  MOTUS STUDY TIMER  </h1></div>
+
+		<div id="time_passed"> 📚</div>
+
+		<div id="status"> &nbsp</div>
+
+		
+		<p></p>
+
+	<div id="settings"> 
+			Custom Session </br>
+			<input type="number" id="duration_total_session" value="60"> min. (Total Study Time)</br>
+			<input type="number" id="duration_phase_1" value="5"> min. (Duration of Phase 1)			 </br>
+			<input type="number" id="duration_phase_2" value="5"> min. (Duration of Phase 2)	        </br>
+																							 </br>
+			<button id="apply_settings" onclick="apply_settings()">Apply</button>            </br>
+		</div> <div id="menu">
+
+		<button id="button_1" onclick="run_session()">  Start 
+</button>
+		<button id="button_2" onclick="settings_clicked()">⚙️</button>
+
+		
+
+ </div>
+
+		<div id="all_stats">
+			<div id="time_left"> &nbsp </div>
+			<div id="status"> &nbsp</div>
+			<div id="phase"> &nbsp </div>
+
+		</div>
+
+		
+
+
+
+	</div>
+
+<div id="moons">
+<button id="darkmode" onclick="darkmode()">Hide Clock</button>
+<button id="brightmode" onclick="brightmode()">Show Clock</button>
+</div>
+
+</body>
+
+
+<script type="text/javascript" src="script.js">
+	
+
+
+</script>
